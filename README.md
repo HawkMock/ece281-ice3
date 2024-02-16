@@ -24,3 +24,9 @@ Then it **elaborates** the *any* entity with the name `*_tb`.
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity failure` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+## Documentation
+
+I had Aiden Dougherty help me with fixing an issue in Vivado, which I included in a writeup in the teams. C3C Bresnehan and C3C Culp worked on this project with me.
+
+![Simulated Waveform](img/Screenshot%202024-02-13%20212322.png)
